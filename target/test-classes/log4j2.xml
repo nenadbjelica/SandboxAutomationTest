@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="30">
+	<Appenders>
+		<File name="sendboxSelenium"
+			fileName="C:/Sendbox/Logs/Sendbox.log" append="true"
+			immediateFlush="true">
+			<PatternLayout pattern="%d{dd MMM yyyy HH:mm:ss,SSS} %-4r %-5p %c %x - %m%n" />
+		</File>
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{dd MMM yyyy HH:mm:ss,SSS} %-4r %-5p %c %x - %m%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="debug">
+			<AppenderRef ref="STDOUT" />
+			<AppenderRef ref="sendboxSelenium" />
+		</Root>
+	</Loggers>
+</Configuration>

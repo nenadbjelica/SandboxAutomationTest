@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  SandboxTestCases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SandboxTestCases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 27 10:51:20 CET 2021</td>
+</tr>
+<tr><td>Total time:</td><td>55 seconds (55541 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='sandbox.selenium.testcases.CheckLoginValidations.correctPasswordAndShortUsername()'><b>correctPasswordAndShortUsername</b><br>Test class: sandbox.selenium.testcases.CheckLoginValidations</td>
+<td></td>
+<td>1</td>
+<td>sandbox.selenium.testcases.CheckLoginValidations@6a192cfe</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CheckLoginValidations.correctUsernameAndWrongPassword()'><b>correctUsernameAndWrongPassword</b><br>Test class: sandbox.selenium.testcases.CheckLoginValidations</td>
+<td></td>
+<td>1</td>
+<td>sandbox.selenium.testcases.CheckLoginValidations@6a192cfe</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.PlaygroundTest.createNewPersons()'><b>createNewPersons</b><br>Test class: sandbox.selenium.testcases.PlaygroundTest</td>
+<td></td>
+<td>3</td>
+<td>sandbox.selenium.testcases.PlaygroundTest@16ec5519</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.PlaygroundTest.createNewProject()'><b>createNewProject</b><br>Test class: sandbox.selenium.testcases.PlaygroundTest</td>
+<td></td>
+<td>0</td>
+<td>sandbox.selenium.testcases.PlaygroundTest@16ec5519</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.PlaygroundTest.createNewSeniorities()'><b>createNewSeniorities</b><br>Test class: sandbox.selenium.testcases.PlaygroundTest</td>
+<td></td>
+<td>1</td>
+<td>sandbox.selenium.testcases.PlaygroundTest@16ec5519</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.PlaygroundTest.createNewTeams()'><b>createNewTeams</b><br>Test class: sandbox.selenium.testcases.PlaygroundTest</td>
+<td></td>
+<td>1</td>
+<td>sandbox.selenium.testcases.PlaygroundTest@16ec5519</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.PlaygroundTest.createNewTechnologies()'><b>createNewTechnologies</b><br>Test class: sandbox.selenium.testcases.PlaygroundTest</td>
+<td></td>
+<td>0</td>
+<td>sandbox.selenium.testcases.PlaygroundTest@16ec5519</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CreateUseCaseOne.createUseCase()'><b>createUseCase</b><br>Test class: sandbox.selenium.testcases.CreateUseCaseOne</td>
+<td></td>
+<td>3</td>
+<td>sandbox.selenium.testcases.CreateUseCaseOne@7722c3c3</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CreateUseCaseTwo.createUseCase()'><b>createUseCase</b><br>Test class: sandbox.selenium.testcases.CreateUseCaseTwo</td>
+<td></td>
+<td>3</td>
+<td>sandbox.selenium.testcases.CreateUseCaseTwo@2ef3eef9</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CreateUseCaseThree.createUseCase()'><b>createUseCase</b><br>Test class: sandbox.selenium.testcases.CreateUseCaseThree</td>
+<td></td>
+<td>3</td>
+<td>sandbox.selenium.testcases.CreateUseCaseThree@243c4f91</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CreateUseCaseFour.createUseCase()'><b>createUseCase</b><br>Test class: sandbox.selenium.testcases.CreateUseCaseFour</td>
+<td></td>
+<td>3</td>
+<td>sandbox.selenium.testcases.CreateUseCaseFour@291ae</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CreateUseCaseFive.createUseCase()'><b>createUseCase</b><br>Test class: sandbox.selenium.testcases.CreateUseCaseFive</td>
+<td></td>
+<td>2</td>
+<td>sandbox.selenium.testcases.CreateUseCaseFive@61df66b6</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CheckPasswordValidations.emptyCurrentNewAndConfirmPass()'><b>emptyCurrentNewAndConfirmPass</b><br>Test class: sandbox.selenium.testcases.CheckPasswordValidations</td>
+<td></td>
+<td>1</td>
+<td>sandbox.selenium.testcases.CheckPasswordValidations@5119fb47</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CheckLoginValidations.emptyUsernameAndPassword()'><b>emptyUsernameAndPassword</b><br>Test class: sandbox.selenium.testcases.CheckLoginValidations</td>
+<td></td>
+<td>1</td>
+<td>sandbox.selenium.testcases.CheckLoginValidations@6a192cfe</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.RemoveCreatedIssue.removingIssue()'><b>removingIssue</b><br>Test class: sandbox.selenium.testcases.RemoveCreatedIssue</td>
+<td></td>
+<td>0</td>
+<td>sandbox.selenium.testcases.RemoveCreatedIssue@1ea9f6af</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.EditCaseWithReplacingChar.replacingCharacters()'><b>replacingCharacters</b><br>Test class: sandbox.selenium.testcases.EditCaseWithReplacingChar</td>
+<td></td>
+<td>3</td>
+<td>sandbox.selenium.testcases.EditCaseWithReplacingChar@50eac852</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CreateNewIssue.reportNewIssue()'><b>reportNewIssue</b><br>Test class: sandbox.selenium.testcases.CreateNewIssue</td>
+<td></td>
+<td>3</td>
+<td>sandbox.selenium.testcases.CreateNewIssue@2f7298b</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CreateNewIssueWithRandomList.reportNewIssue()'><b>reportNewIssue</b><br>Test class: sandbox.selenium.testcases.CreateNewIssueWithRandomList</td>
+<td></td>
+<td>2</td>
+<td>sandbox.selenium.testcases.CreateNewIssueWithRandomList@188715b5</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CheckPasswordValidations.wrongCurrentPass()'><b>wrongCurrentPass</b><br>Test class: sandbox.selenium.testcases.CheckPasswordValidations</td>
+<td></td>
+<td>1</td>
+<td>sandbox.selenium.testcases.CheckPasswordValidations@5119fb47</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CheckPasswordValidations.wrongMatchNewAndConfirmPass()'><b>wrongMatchNewAndConfirmPass</b><br>Test class: sandbox.selenium.testcases.CheckPasswordValidations</td>
+<td></td>
+<td>1</td>
+<td>sandbox.selenium.testcases.CheckPasswordValidations@5119fb47</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CheckPasswordValidations.wrongNewPassLength()'><b>wrongNewPassLength</b><br>Test class: sandbox.selenium.testcases.CheckPasswordValidations</td>
+<td></td>
+<td>1</td>
+<td>sandbox.selenium.testcases.CheckPasswordValidations@5119fb47</td></tr>
+<tr>
+<td title='sandbox.selenium.testcases.CheckLoginValidations.wrongUsernameAndPassword()'><b>wrongUsernameAndPassword</b><br>Test class: sandbox.selenium.testcases.CheckLoginValidations</td>
+<td></td>
+<td>1</td>
+<td>sandbox.selenium.testcases.CheckLoginValidations@6a192cfe</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QA Sandbox Tests Suite" thread-count="1">
+	<test name="SandboxTestCases">
+		<classes>
+			<class name="sandbox.selenium.testcases.CreateUseCaseOne" />
+			<class name="sandbox.selenium.testcases.CreateUseCaseTwo" />
+			<class name="sandbox.selenium.testcases.CreateUseCaseThree" />
+			<class name="sandbox.selenium.testcases.CreateUseCaseFour" />
+			<class name="sandbox.selenium.testcases.CreateUseCaseFive" />
+			<class name="sandbox.selenium.testcases.EditCaseWithReplacingChar" />
+			<class name="sandbox.selenium.testcases.PlaygroundTest" />
+			<class name="sandbox.selenium.testcases.CreateNewIssue" />
+			<class name="sandbox.selenium.testcases.CreateNewIssueWithRandomList" />
+			<class name="sandbox.selenium.testcases.RemoveCreatedIssue"/>
+			<class name="sandbox.selenium.testcases.CheckLoginValidations" />
+			<class name="sandbox.selenium.testcases.CheckPasswordValidations" />
+		</classes>
+	</test>
+</suite>
